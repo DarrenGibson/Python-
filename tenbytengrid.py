@@ -229,23 +229,6 @@ entry9_9.grid(row=9, column=9)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 root.mainloop()
 
 

@@ -18,7 +18,9 @@ NOTES:
 
 #
 
-
+def takeArgs(greeting):
+	return greeting
+print(takeArgs('hello'))
 
 
 

@@ -18,27 +18,21 @@ NOTES:
 
 from tkinter import*
 
-mainWin = Tk()
+mW = Tk()
 
-def do():
-	print('this workes')
-	
-menu1 = Menu(mainWin) 
-mainWin.config(menu=menu1)
+drop_file = Menu(mW) 
+mW.config(menu=drop_file)
 
-submenu = Menu(menu1)
-menu1.add_cascade(label='file', menu=submenu)
+drop_file_sub = Menu(drop_file)
+drop_file.add_cascade(label='file', menu=drop_file_sub)
+'''
 submenu.add_command(label='new project...', command=do)
 submenu.add_command(label='new folder.', command=do)
 submenu.add_separator()
 submenu.add_command(label='print.', command=do)
+'''
 
-
-
-
-
-
-mainWin.mainloop()
+mW.mainloop()
 
 
 
